@@ -1,0 +1,21 @@
+body {
+    background-color: #f5f5f5;
+}
+#password{
+    padding-top: 120px;
+}
+table{
+    color:#fff;
+    background:#369;
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    border-spacing: 50px;
+}
+
+.displayed {
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center 
+}
