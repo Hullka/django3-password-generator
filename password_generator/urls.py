@@ -18,6 +18,7 @@ Including another URLconf
 from generator import views
 from django.urls import path
 
+handler404 = 'generator.views.custom_404'
 urlpatterns = [
     # path('admin/', admin.site.urls),
     path('', views.home, name='home'),

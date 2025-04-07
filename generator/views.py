@@ -24,3 +24,6 @@ def password(request):
 
 def description(request):
     return render(request, 'generator/description.html')
+
+def custom_404(request, exception):
+    return render(request, 'generator/404.html', status=404)
